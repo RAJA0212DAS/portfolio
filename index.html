@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Raja Das — B.Tech CSE student and aspiring software engineer." />
+  <title>Raja Das | Software Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="navbar">
+    <a class="logo" href="#home">RAJA<span>.</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">B.TECH CSE • DEVELOPER IN PROGRESS</p>
+        <h1>Hi, I'm <span>Raja Das</span>.<br>Building my future<br>one project at a time.</h1>
+        <p class="hero-text">
+          I'm a Computer Science student and aspiring Software Engineer who enjoys
+          building practical applications, learning new technologies, and solving problems with code.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Let's Connect</a>
+        </div>
+        <div class="socials">
+          <!-- Replace these placeholder links with your real profiles -->
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="terminal">
+          <div class="terminal-top"><span></span><span></span><span></span><small>raja@portfolio ~</small></div>
+          <div class="terminal-body">
+            <p><b class="purple">$</b> whoami</p>
+            <p class="output">Raja Das</p>
+            <p><b class="purple">$</b> role</p>
+            <p class="output">Aspiring Software Engineer</p>
+            <p><b class="purple">$</b> skills --main</p>
+            <p class="output">Python • Java • Web • SQL</p>
+            <p><b class="purple">$</b> status</p>
+            <p class="green">● Learning & Building</p>
+            <p><b class="purple">$</b><span class="cursor">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT ME</p>
+        <h2>Curious mind.<br><span>Builder's mindset.</span></h2>
+      </div>
+      <div class="about-copy reveal">
+        <p>
+          I'm Raja Das, a B.Tech Computer Science & Engineering student at Adamas University.
+          I'm currently developing my foundations in programming, data structures, databases,
+          networking, and software development.
+        </p>
+        <p>
+          My goal is to grow into a strong software engineer by turning what I learn into
+          useful projects. I mainly work with Python and I'm also learning Java, web technologies,
+          SQL, Git, and GitHub.
+        </p>
+        <div class="stats">
+          <div><strong>01</strong><span>Primary Language<br>Python</span></div>
+          <div><strong>04</strong><span>Featured Projects<br>Growing</span></div>
+          <div><strong>∞</strong><span>Things to Learn<br>Always</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>My current <span>toolbox.</span></h2>
+        <p>Technologies I'm learning and using to build my projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">01</div><h3>Programming</h3><p>Python, Java, C, C++</p><div class="tags"><span>Python</span><span>Java</span><span>C/C++</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">02</div><h3>Web Development</h3><p>Building clean, responsive interfaces.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">03</div><h3>Database</h3><p>Working with structured data and queries.</p><div class="tags"><span>MySQL</span><span>SQL</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">04</div><h3>Developer Tools</h3><p>Tools for coding and collaboration.</p><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Things I've <span>built.</span></h2>
+        <p>Academic and personal projects that turn concepts into working software.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <p class="project-type">DATABASE APPLICATION</p>
+            <h3>Vehicle Service Management System</h3>
+            <p>Manage customers, vehicles, appointments, service records, and service history in one structured system.</p>
+            <div class="tags"><span>Python / Java</span><span>MySQL</span><span>DBMS</span></div>
+            <a href="#" class="project-link" data-project="Vehicle Service Management System">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <p class="project-type">PYTHON APPLICATION</p>
+            <h3>ATM Management System</h3>
+            <p>A simple banking simulation with PIN authentication, balance operations, and transaction history.</p>
+            <div class="tags"><span>Python</span><span>JSON</span></div>
+            <a href="#" class="project-link" data-project="ATM Management System">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <p class="project-type">EDUCATION TECHNOLOGY</p>
+            <h3>Offline Learning Application</h3>
+            <p>An educational application concept designed to make learning resources available without continuous internet access.</p>
+            <div class="tags"><span>Python / Java</span><span>Education</span></div>
+            <a href="#" class="project-link" data-project="Offline Learning Application">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card coming reveal">
+          <div class="project-number">04</div>
+          <div class="project-content">
+            <p class="project-type">COMING NEXT</p>
+            <h3>Full-Stack Web Project</h3>
+            <p>A larger project combining frontend, backend, database, authentication, and deployment.</p>
+            <div class="tags"><span>HTML/CSS/JS</span><span>Backend</span><span>MySQL</span></div>
+            <span class="project-link muted">In development</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section split">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — EDUCATION</p>
+        <h2>Learning the<br><span>fundamentals.</span></h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div><span class="date">2024 — PRESENT</span><h3>B.Tech — Computer Science & Engineering</h3><p>Adamas University</p><p class="small">Relevant areas: Data Structures & Algorithms, Computer Networks, DBMS, Computer Organization, Theory of Computation, Artificial Intelligence.</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div><span class="date">CURRENT FOCUS</span><h3>Software Development</h3><p>Python • Java • Web Development • SQL • Git/GitHub</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta reveal">
+      <p class="eyebrow">LET'S BUILD SOMETHING</p>
+      <h2>Have an idea?<br><span>Let's talk.</span></h2>
+      <a class="btn primary" href="#contact">Get in touch ↗</a>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Let's connect<br><span>and create.</span></h2>
+      </div>
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:YOUR_EMAIL@example.com">
+          <small>EMAIL</small><strong>YOUR_EMAIL@example.com</strong><span>Send me a message ↗</span>
+        </a>
+        <a class="contact-card" href="https://github.com/" target="_blank" rel="noopener">
+          <small>GITHUB</small><strong>github.com/YOUR_USERNAME</strong><span>View my repositories ↗</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          <small>LINKEDIN</small><strong>linkedin.com/in/YOUR_USERNAME</strong><span>Connect with me ↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="logo" href="#home">RAJA<span>.</span></a><p>Designed & built by Raja Das.</p></div>
+    <p>© <span id="year"></span> Raja Das. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button id="modalClose" aria-label="Close">×</button>
+      <p class="eyebrow">PROJECT</p>
+      <h3 id="modalTitle">Project</h3>
+      <p>This card is ready for your real GitHub repository link. Open <strong>script.js</strong> or <strong>index.html</strong> and replace the placeholder URL with your repository/demo.</p>
+      <button class="btn secondary" id="modalDone">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
